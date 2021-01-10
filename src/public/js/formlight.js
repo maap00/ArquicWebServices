@@ -10,10 +10,12 @@
         document.getElementById("formulario").style.display="none";  
     });
 
+     
 //Validacion de Datos ==============
 
 $('#sendMail').click(function(){
 
+    
     // Validate name ==============================
     if( $('#name').val() == '' ){
         alert("coloca nombre")

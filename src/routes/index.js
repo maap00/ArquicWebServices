@@ -13,6 +13,7 @@ console.log({
     password
 })
 
+
 //----Conf: Ruta Send-Email, interpreta los datos enviados desde el cuerpo de la peticion -----//
 router.post('/send-email', async (req, res) => {
     const {
