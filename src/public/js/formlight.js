@@ -13,30 +13,30 @@
      
 //Validacion de Datos ==============
 
-$('#sendMail').click(function(){
+// $('#sendMail').click(function(){
 
     
-    // Validate name ==============================
-    if( $('#name').val() == '' ){
-        alert("coloca nombre")
-    }
+//     // Validate name ==============================
+//     if( $('#name').val() == '' ){
+//         alert("coloca nombre")
+//     }
 
-    // Validate mail ==============================
-    if( $('#email').val() == '' ){
-        alert("coloca mail")
-    }
-    // Validate phone ==============================
-    if( $('#phone').val() == '' ){
-        alert("coloca mail")
-    }
+//     // Validate mail ==============================
+//     if( $('#email').val() == '' ){
+//         alert("coloca mail")
+//     }
+//     // Validate phone ==============================
+//     if( $('#phone').val() == '' ){
+//         alert("coloca mail")
+//     }
 
-    // Validado Messge ==============================
-    if( $('#message').val() == '' ){
-        alert("coloca mensaje")
-    } 
-    else{
-        alert("Enviando...")
-        document.getElementById("formulario").style.display="none"; 
-    }
+//     // Validado Messge ==============================
+//     if( $('#message').val() == '' ){
+//         alert("coloca mensaje")
+//     } 
+//     else{
+//         alert("Enviando...")
+//         document.getElementById("formulario").style.display="none"; 
+//     }
 
-});
+// });
